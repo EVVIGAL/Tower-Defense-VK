@@ -4,27 +4,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Tower defense</title>
+  <title>Super Bike Kick Race 3d</title>
 </head>
 
 <body style="margin: 0px; overflow: hidden;" oncontextmenu="return false;">
     <canvas id="unity-canvas"
-            style="position: fixed; width: 100%; height: 100%; background: #828080">
+            style="position: fixed; width: 100%; height: 100%; background: #000000">
     </canvas>
 
     <div id="progress-bar" style="position: absolute; left: 0%; right: 100%; top: 49%; bottom: 49%; background-color: white;"></div>
+
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
     <script>vkBridge.send('VKWebAppInit');</script>
-    <script src="Build/bf9211d0602cd18f6ddf46c8b641ac60.js"></script>
+    <script src="Build/BuildVK.loader.js"></script>
     <script>
         const settings = {
-            dataUrl: "Build/cf983b21d29c17f8ef2881459ff602c6.data.unityweb",
-            frameworkUrl: "Build/4a3acc216d67f489a2f1880d1ca7b281.js.unityweb",
-            codeUrl: "Build/2b5fde5fe3d51706ed28c6b3d3be3e9c.wasm.unityweb",
+            dataUrl: "Build/ec99227c924f29181c0d9e3b09a302e5.data.unityweb",
+            frameworkUrl: "Build/e6f7261b9b45e4162aa62c8aad091a69.js.unityweb",
+            codeUrl: "Build/74ffbcb0d06f6727fc64eeb776c4dc07.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
-            companyName: "Finik",
-            productName: "Tower defense",
-            productVersion: "1.2",
+            companyName: "arsalgames",
+            productName: "Super Bike Kick Race 3d",
+            productVersion: "3",
             matchWebGLToCanvasSize: true,
             devicePixelRatio: 1.6, // Uncomment this line to enable anti-aliasing
         };
